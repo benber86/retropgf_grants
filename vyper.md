@@ -76,8 +76,8 @@ https://blog.chain.link/solidity-vs-vyper/
 
 ## Grants and funding
 
-- [x] RetroPGF2
-135200 OP
+- [x] RetroPGF2 <br>
+135200 OP <br>
 Vyper received 1.35% of the 10M OP allocated for RetroPGF2 for its contributions to the OP ecosystem
 
 ## Payout address
