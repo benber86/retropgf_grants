@@ -27,7 +27,7 @@ The team added support for the first (non EVM-equivalent) version of the OVM bac
 
 Vyper's design principles have always prioritized security and audibility. Over the past couple of years, the team has greatly enhanced the review and audit process of the compiler to ensure the robustness and safety of the language.
 The codebase is regularly reviewed by ChainSecurity, with additional input from StateMind and large protocols working with Vyper.
-Following the discovery of a vulnerability in an older version of the compiler in the summer of 2023, the team responded by quickly coordinating with security professionals and affected protocols to prevent further exploits and rescue user funds. 
+Following the discovery of a vulnerability in an older version of the compiler in the summer of 2023, the team responded by quickly coordinating with security professionals and affected protocols to prevent further exploits on other chains such as Optimism and rescue user funds. 
 They later organized a $150k audit competition, coordinated bug bounty programs and allocated funding to bring Vyper support to essential smart contract security tools such as Trail of Bits' Slither (static analyzer) and Echidna (fuzzer).
 
 Since being praised by Vitalik Buterin in 2022 for "quietly continuing to progress and become a better and better Ethereum high-level language", Vyper has seen several upgrades and optimizations that have further solidified its reputation as a reliable, user-friendly and highly efficient choice for smart contract development.
