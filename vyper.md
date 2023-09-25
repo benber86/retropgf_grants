@@ -62,7 +62,7 @@ OP Stack:
 - The Vyper team's continued efforts to bring optimizations to the compiler enhance the efficiency of the OP stack.
 
 Developer Ecosystem:
-- Major projects such as Yearn, Curve, Perpetual Protocol, Lido, and Velodrome Finance all used Vyper contracts as part of their Optimism deployments.
+- Major projects such as Curve, Lido, Perpetual Protocol, Velodrome Finance and Yearn all used Vyper contracts as part of their Optimism deployments.
 - Vyper has been used by the Velodrome Finance team to develop contracts for chain data analytics (https://github.com/velodrome-finance/sugar). By offering a Python-like syntax and integrating with Python tooling such as Jupyter, Vyper significantly lowers the barrier of entry for the existing large community of Python developers.
 
 
