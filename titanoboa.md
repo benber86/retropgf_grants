@@ -59,7 +59,7 @@ _Highlight metrics to help badgeholders understand your impact. You can link to 
 Backend optimization metrics <br>
 https://twitter.com/big_tech_sux/status/1671051375361560576
 
-Jupyter notebook showcase:
+Jupyter notebook showcase <br>
 https://twitter.com/big_tech_sux/status/1668305117605662720
 
 ## Grants and funding
