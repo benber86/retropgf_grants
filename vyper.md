@@ -24,7 +24,7 @@ _Please share the contributions you wish to receive RetroPGF for._
 Vyper is a pythonic programming language for smart contracts on the Ethereum Virtual Machine (EVM).
 Vyper contracts account for over 7% ($50m) of the TVL on Optimism and secure more than $2 billion across multiple chains for major protocols such as Curve, Lido, Perpetual Protocol and Yearn.
 
-Vyper is the second most-widely used smart contract programming language after Solidity and an essential resource to ensure language diversity on Optimism and Ethereum.
+The Vyper compiler offers exceptional performance, producing binaries that are consistently 50% smaller than Solidity.
 
 Vyper is also a long-time supporter of the Optimism ecosystem. 
 The team added support for the first (non EVM-equivalent) version of the OVM back in 2020, and, more recently, worked on ways to mitigate issues faced by users unaware of the differences between EVM versions on Optimism and Mainnet (such as the PUSH0 opcode not being supported on Optimism, for instance).
@@ -41,7 +41,7 @@ Compiler optimizations allow the language to systematically offer lower gas cost
 The elaboration and implementation of the ERC-5202 factory pattern allows developers to deploy larger contracts for minimum deployment gas and to create complex factory contracts.
 Finally, the development of a module system for the language will improve developer experience by limiting the need to reuse code across contracts.
 
-As Optimism's second largest language, Vyper plays an instrumental role in the Collective's evolution, helping to provide onboard a larger amount of protocols and offer end-users more dapps while fostering language diversity. Vyper's unwavering commitment to security and continuous support for Optimism's growth testifies to its profound impact and make it a prime candidate for the retrofunding grant.
+As Optimism's second largest language, Vyper plays an instrumental role in the Collective's evolution, helping to provide onboard a larger amount of protocols and offer end-users more dapps while increasing the efficiency of the OP stack. Vyper's unwavering commitment to security and continuous support for Optimism's growth testifies to its profound impact and make it a prime candidate for the retrofunding grant.
 
 ##### Contribution links
 
@@ -59,11 +59,12 @@ _Describe the impact your contribution(s) had on the Optimism Collective_
 OP Stack:
 - Vyper's commitment to security through its language design choices and stringent audit process increases the security of the OP Stack.
 - Vyper contributes to language diversity on Optimism, thereby reducing the risk of a systemic failure arising from vulnerabilities in a single programming language.
-- The Vyper team's continued efforts to bring optimizations to the compiler enhance the efficiency of the OP stack.
+- The Vyper team's continued efforts to bring optimizations to the compiler enhance the efficiency of the OP stack. 
 
 Developer Ecosystem:
 - Major projects such as Curve, Lido, Perpetual Protocol, Velodrome Finance and Yearn all used Vyper contracts as part of their Optimism deployments.
 - Vyper has been used by the Velodrome Finance team to develop contracts for on-chain analytics API (https://warpcast.com/stas/0xef2a44). By offering a Python-like syntax and integrating with Python tooling such as Jupyter, Vyper significantly lowers the barrier of entry for the existing large community of Python developers.
+- By drastically reducing the size of compiled binaries, Vyper lets developers make more complex contracts without running into the size limitations of the EVM. 
 
 
 #### Impact metrics
@@ -78,11 +79,15 @@ https://defillama.com/languages
 TVL Secured on Optimism - $50.2 millions<br>
 https://defillama.com/protocol/curve-finance, https://optimistic.etherscan.io/address/0xd360b73b19fb20ac874633553fb1007e9fcb2b78, https://defillama.com/protocol/yearn-finance
 
+Compiled bytecode size: -50% <br>
+https://github.com/benber86/vyper_bytecode
+
 Gas comparison metrics<br>
 https://blog.chain.link/solidity-vs-vyper/
 
 Gas comparison metrics 2<br>
 https://github.com/z80dev/gascomps
+
 
 
 ## Grants and funding
