@@ -14,14 +14,14 @@ https://github.com/charles-cooper/venom-design
 
 #### Short Bio
 
-Venom is an intermediate representation (IR) for Vyper while Fang handles the translation of Venom IR to assembly and bytecode.
+Venom is an intermediate representation (IR) for Vyper while Fang handles the compilation of Venom IR to assembly and bytecode.
 
 ## Impact statement
 
 #### Describe your contribution(s) to Optimism 
 _Please share the contributions you wish to receive RetroPGF for._
 
-As the intermediate language for Vyper, Venom greatly facilitates optimizations for reduced bytecode size and gas usage. Fang can be used to compile Venom IR directly to assembly or EVM bytecode.
+As the intermediate language for Vyper, Venom greatly facilitates optimizations resulting in drastically reduced bytecode size and gas usage. Fang can be used to compile Venom IR directly to assembly or EVM bytecode.
 
 Venom offers a reduction in 20 to 30% of the size of the bytecode produced and in equivalent gas savings. 
 
