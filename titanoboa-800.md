@@ -14,14 +14,18 @@ https://github.com/vyperlang/titanoboa
 
 #### Short Bio
 
-Titanoboa is a Vyper interpreter offering features such as step-by-step debugging, gas profiling, pretty tracebacks, Jupyter notebook integration and blazingly fast speeds thanks to its highly optimized backend. Titanoboa allows Vyper developers to quickly prototype as well as thoroughly test their smart contracts.
+Titanoboa is a Vyper interpreter offering advanced and fast testing capacities. 
 
 ## Impact statement
 
 #### Describe your contribution(s) to Optimism 
 _Please share the contributions you wish to receive RetroPGF for._
 
-Titanoboa (boa) is an advanced toolkit for Vyper developers, offering rapid testing, prototyping, and features beyond Solidity frameworks. It enables comprehensive tests on smart contracts, including coverage reports, EVM state patching, and integration with pytest. Boa's opcode patching is crucial for testing across various EVM versions. Its highly optimized backend boosts testing speed, exemplified by Curve Finance reducing its test suite runtime to under a minute, thanks to Boa's embedded EVM eliminating slow RPC calls. Additionally, Boa's integration with Jupyter facilitates collaborative prototyping and complex transaction crafting. It's proven essential for Vyper developers on Optimism and Mainnet, enhancing network growth and security.
+Titanoboa makes it possible to run comprehensive and granular tests on a smart contract suite. Besides coverage reports, print statements, a fork mode, time travel, EVM state patching, Titanoboa offers advanced testing features such automated fuzzing strategies and custom precompiles. Opcode patching also enables testing new EVM opcodes to test contracts on different versions of the EVM, such as Mainnet vs Optimism. 
+
+Titanoboa's highly optimized backend can reduce the time it takes to run a test suite from several hours to under a minute. Boa does so by replacing slow external RPC calls with an embedded EVM running contracts directly as Python.
+
+Integration with Jupyter means that one can spin up a notebook on Google Collab and start collaborating and prototyping their smart contract idea.
 
 
 ##### Contribution links
@@ -44,6 +48,7 @@ OP Stack:
 Developer Ecosystem:
 - Features such as integration with Jupyter notebooks, live blockchain interactions, and pure Python execution are pivotal for swift and efficient contract deployments.
 - Titanoboa's testing features are essential for smart-contract developers working on multiple networks such as Optimism and Mainnet.
+- Titanoboa allows Vyper developers to quickly prototype as well as thoroughly test their smart contracts.
 
 #### Impact metrics
 _Highlight metrics to help badgeholders understand your impact. You can link to data dashboards, onchain contracts, spreadsheets, or any resources._
