@@ -2,7 +2,7 @@
 
 #### Please provide an email address where we can contact you in connection with your grant and KYC process
 
-`Fill`
+`cooper.charles.m@gmail.com`
 
 #### Display name
 
@@ -98,4 +98,4 @@ Vyper received 1.35% of the 10M OP allocated for RetroPGF2 for its contributions
 
 ## Payout address
 
-`Fill`
+`0xAbfA48BCc0F96Fc70be7a4156b0a74Ea350167fD`
